@@ -1,7 +1,5 @@
 .data
 
-#this structure is common in assembly and C. Notice that Q1 is not global, but is an entry in a table. 
-#label addresses can be "encoded" as the value of a .word
 .globl QuestionTable
 QuestionTable:
 	.word	Q1 Q2 Q3
